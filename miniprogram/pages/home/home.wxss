@@ -1,0 +1,28 @@
+/* pages/home/home.wxss */
+.container{
+  background: #f0f0f0;
+  padding: 10px;
+}
+.main{
+    color: black;
+}
+.main-box{
+    border-radius: 8px; 
+    background-color: #fff;
+}
+.row-line{    
+  display: flex;
+  align-items: center;
+  font-size: 13px;
+  justify-content: space-between;  
+  height: 50px;
+}
+.box-h{
+  
+    padding: 0 10px;
+}
+.size_box{
+  height: 10px;
+  background-color: #f0f0f0;
+}
+

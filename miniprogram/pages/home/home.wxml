@@ -1,0 +1,50 @@
+<!--pages/home/home.wxml-->
+<view class="container">
+  <scroll-view class="main">
+   <view class="main-box">
+    <view class="row-line">
+      <view class="box-h">
+        <Text>装车地点</Text>
+      </view>
+      <view class="box-h" style="color:grey">
+        <Text style="color:#5c9ee0;">请选择装车地点</Text>
+      </view>
+    </view>
+    <view class="row-line">
+      <view class="box-h">
+        <Text>预计出场时间</Text>
+      </view>
+      <view class="box-h" style="color:grey">
+        <Text>请选择出场时间</Text>
+      </view>
+    </view>
+    <view class="row-line">
+      <view class="box-h">
+        <Text>车牌号</Text>
+      </view>
+      <view class="box-h" style="color:grey">
+        <input type="text" style=" text-align: right;"  placeholder="请输入车牌号"/>
+      </view>
+    </view>
+   </view>
+    <view class="size_box"></view>
+   <view class="main-box">
+    <view class="row-line">
+      <view class="box-h">
+        <Text>货主电话</Text>
+      </view>
+      <view class="box-h" style="color:grey">
+      <input type="text" style=" text-align: right;"  placeholder="请输入联系电话"/>
+      </view>
+    </view>
+    <view class="row-line">
+      <view class="box-h">
+        <Text>司机电话</Text>
+      </view>
+      <view class="box-h" style="color:grey">
+        <input  type="text" style=" text-align: right;" placeholder="请输入司机电话"/>
+      </view>
+    </view>
+   </view>
+  </scroll-view>
+</view>
